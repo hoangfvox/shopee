@@ -1,3 +1,13 @@
+/* PC */
+@media (min-width: 1024px) {
+    .footer__PC-border {
+        border-top: 1px solid #ebebeb;
+    }
+    .footer__heading {
+        margin: 36px 0 14px;
+    }
+}
+
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
     .hide-on-mobile-tablet {
@@ -31,6 +41,9 @@
     }
     .app__content {
         padding-top: 8px;
+    }
+    .footer__bottom {
+        margin-top: 24px;
     }
 }
 
@@ -123,15 +136,22 @@
     .footer__heading {
         text-align: center;
     }
+    .footer-list-img,
     .footer__download,
     .footer-item__link {
         justify-content: center;
+    }
+    .footer-item__link{
+        margin-bottom: 16px;
     }
     .footer__download-app {
         flex: unset;
     }
     .footer__download-app-link {
         display: block;
-        padding: 6px 8px;
+    }
+    .footer-list-img {
+        display: flex;
+        margin: auto;
     }
 }
