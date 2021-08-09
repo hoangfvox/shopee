@@ -601,6 +601,14 @@
     cursor: pointer;
 }
 
+#header__search-option-checkbox {
+    display: none;
+}
+
+#header__search-option-checkbox:checked ~ .header__search-option {
+    display: block;
+}
+
 .header__search-select-label {
     font-size: 1.4rem;
     color: var(--text-color);
@@ -612,10 +620,6 @@
     margin: 0 16px 0 8px;
     position: relative;
     top: 1px;
-}
-
-.header__search-select:hover .header__search-option {
-    display: block;
 }
 
 .header__search-option {
@@ -715,7 +719,11 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.header__cart-wrap:hover .header__cart-list {
+#header__cart-checkbox {
+    display: none;
+}
+
+#header__cart-checkbox:checked ~ .header__cart-list {
     display: block;
 }
 

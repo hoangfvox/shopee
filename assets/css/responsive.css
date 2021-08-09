@@ -1,5 +1,11 @@
 /* PC */
 @media (min-width: 1024px) {
+    .header__search-select:hover .header__search-option {
+        display: block;
+    }
+    .header__cart-wrap:hover .header__cart-list {
+        display: block;
+    }
     .footer__PC-border {
         border-top: 1px solid #ebebeb;
     }
